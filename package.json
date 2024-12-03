@@ -2,7 +2,7 @@
   "name": "lab10",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://grcng.github.io/cps530-lab10c",
+  "homepage": "https://grcng.github.io/lab10",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

@@ -15,7 +15,7 @@ function App() {
           </p>
           <ol>
             <li>Install Node.js from <a href="https://nodejs.org/">nodejs.org</a>.</li>
-            <li>Create a new React app using the command <code>npx create-react-app my-react-app</code>.</li>
+            <li>Create a new React app using the command <code>npx create-react-app lab10</code>.</li>
             <li>Navigate to the project folder and run <code>npm start</code> to launch the development server.</li>
           </ol>
         </section>
