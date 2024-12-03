@@ -8,9 +8,12 @@ function App() {
       </header>
       <main>
         <section>
-          <h2>Installation Steps</h2>
+          <h2>Installation</h2>
           <p>
-            To create this page, I used the React framework. Here are the installation steps:
+            To create this page, I used the React framework. 
+            <br></br>
+            <br></br>
+            Here are the installation steps:
           </p>
           <ol>
             <li>Install Node.js from <a href="https://nodejs.org/">nodejs.org</a>.</li>
@@ -22,7 +25,10 @@ function App() {
         <section>
           <h2>Process</h2>
           <p>
-            The page was built by modifying the default <code>App.js</code> and <code>App.css</code> files. After making the changes, I pushed the code to a new GitHub repository and deployed the app to GitHub Pages. Here's the process:
+            The page was built by modifying the default <code>App.js</code> and <code>App.css</code> files. After making the changes, I pushed the code to a new GitHub repository and deployed the app to GitHub Pages. 
+            <br></br>
+            <br></br>
+            Here's the process:
           </p>
           <ol>
             <li>Initialize a new Git repository in the project folder using <code>git init</code>.</li>
