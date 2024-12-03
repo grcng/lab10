@@ -23,33 +23,23 @@ function App() {
         <section>
           <h2>Building the Page</h2>
           <p>
-            The page was built by modifying the default <code>App.js</code> file. The following steps were taken:
+            The page was built by modifying the default <code>App.js</code> and <code>App.css</code> files.
           </p>
-          <ul>
-            <li>Created a basic header with a title and description.</li>
-            <li>Added custom styles in <code>App.css</code>.</li>
-            <li>Used React's JSX to structure the page content dynamically.</li>
-          </ul>
         </section>
 
         <section>
           <h2>Challenges and Solutions</h2>
-          <p>While building this page, I encountered a few challenges:</p>
           <ul>
-            <li>
-              <strong>Challenge:</strong> Understanding JSX syntax and how it differs from traditional HTML.
-              <br />
-              <strong>Solution:</strong> I referred to the React documentation, especially the section on JSX, to understand the differences and best practices.
-            </li>
             <li>
               <strong>Challenge:</strong> Configuring the project for deployment on GitHub Pages.
               <br />
-              <strong>Solution:</strong> I followed the deployment instructions on the React documentation for deploying on GitHub Pages, adding a <code>homepage</code> field to the <code>package.json</code> file.
+              <strong>Solution:</strong> I followed the deployment instructions on the React documentation for deploying on GitHub Pages, adding a <code>homepage</code> field and modified the <code>scripts</code> field in the <code>package.json</code> file.
             </li>
+            <br></br>
             <li>
-              <strong>Challenge:</strong> Learning how to use React hooks for managing state and effects.
+              <strong>Challenge:</strong> Deploying the page after pushing any changes.
               <br />
-              <strong>Solution:</strong> I experimented with basic hooks like <code>useState</code> and <code>useEffect</code>, and referred to tutorials on the React website to get a better understanding.
+              <strong>Solution:</strong> I encountered issues where the changes wouldn't show up after pushing. To solve this, I ensured that the production build was up-to-date by running <code>npm run build</code> and redeploying the app. Additionally, I verified the deployment process on GitHub Pages and cleared the browser cache to ensure the latest version was being served.
             </li>
           </ul>
         </section>
